@@ -14,16 +14,21 @@ O sistema atende aos seguintes requisitos:
 ## 📷 Telas da Aplicação
 
 ### 🔐 Tela de Login
-![Login](img/login.png)
+<img width="1365" height="645" alt="login" src="https://github.com/user-attachments/assets/f537f1a2-cdfa-4817-8d58-e76379ab119d" />
+
+
 
 ### 📊 Painel Administrativo
-![Dashboard](img/dashboard.png)
+<img width="1365" height="647" alt="dashboard" src="https://github.com/user-attachments/assets/84e5ca07-6405-4f74-a5ae-eb60b616f879" />
+
 
 ### 🐾 Cadastro de Novos Pets
-![Cadastro](img/cadastro.png)
+<img width="1365" height="643" alt="cadastro" src="https://github.com/user-attachments/assets/f058de9b-3657-4e5c-9743-468b0a272f27" />
+
 
 ### 📑 Listagem e Gerenciamento de Pets (CRUD)
-![Listagem](img/listagem.png)
+<img width="1365" height="641" alt="listagem" src="https://github.com/user-attachments/assets/0f67300a-aa8a-49b7-9857-1b12a61be4d2" />
+
 
 ## 🛠️ Tecnologias e Ferramentas
 - **Linguagem:** Java (Web)
