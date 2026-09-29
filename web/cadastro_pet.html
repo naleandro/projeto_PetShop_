@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Novo Pet - PetManager</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="card" style="max-width: 500px; margin: 0 auto;">
+                <h2>🐾 Cadastrar Novo Pet</h2>
+                <p style="margin-bottom: 20px; color: #666;">Preencha as informações abaixo</p>
+                <form action="salvar_pet.jsp" method="POST" style="box-shadow: none; padding: 0;">
+                    <input type="text" name="nome" placeholder="Nome do Pet" required>
+
+                    <input type="text" name="raca" placeholder="Espécie / Raça (Ex: Poodle, Persa)" required>
+
+                    <input type="number" name="idade" placeholder="Idade (em anos)" required min="0">
+
+                    <input type="text" name="caracteristicas" placeholder="Características (Ex: Pelagem branca, dócil)">
+
+                    <input type="text" name="dono" placeholder="Nome do Responsável / Dono" required>
+
+                    <button type="submit" class="btn-main">Salvar Pet</button>
+
+                    <div style="margin-top: 20px;">
+                        <a href="restrito.jsp" class="btn-outline">Cancelar e Voltar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
